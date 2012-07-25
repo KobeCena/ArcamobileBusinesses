@@ -1,0 +1,425 @@
+//Some Settings
+
+/***************************************************************************************************************************
+ * If you need to change the date format, please refer to Apple date format documentation before any modification:
+ * http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/DataFormatting/Articles/dfDateFormatting10_4.html
+ ****************************************************************************************************************************/
+"dateFormat"                    = "MM/dd/yyyy"; //used to transform dates for the UI
+"serverDateFormat"              = "yyyy-MM-dd HH:mm:ss"; //used to transform dates when receive data from server
+/*********************************************************************************************************/
+
+//TabBar items
+"tabBarItem1" = "Nearby";
+"tabBarItem2" = "Businesses";
+"tabBarItem3" = "My Businesses";
+"tabBarItem4" = "Settings";
+
+//Start
+
+"ApplicationName"                ="Deals";
+"NearDealMessage"                = "New deal: %1$@"; //Push Notification
+"NearDealMessage2"               = "New deal";
+"ViewDeal"                       = "View";
+
+"NoConnection"                   = "No Connection!";
+"NoConnectionMessage"            = "Sorry, you need an internet connection to access Deals app.";
+"NoSaveData"                     = "Impossible to save Application Data";
+"NoSaveDataMessage"              = "This application cannot save settings data. Please, report this error to manufacturer!";
+"NoResults"                      = "No Results";
+"NoResultsFound"                 = "No results were found!";
+"OK"                             = "OK";
+"NoGPSResults"                   = "No GPS Location Results";
+"NoGPSResultsMessage"            = "Your GPS location could not be determined after the maximum waiting interval. Verify interferences in your location or disable 'Nearby' feature at Settings and try again.";
+"Browse"                         = "Browse";
+"Page"                           = "Pag.";
+"of"                             = "of";
+"PreviousButton"                 = "Prev";
+"NextButton"                     = "Next";
+"Loading"                        = "Loading ...";
+"Wait"                           = "Wait ...";
+"SearchFor"                      = "Search for:";
+"Phone"                          = "Phone:";
+"Price"                          = "Price:";
+"MoneySymbol"                    = "$";
+"GetDirections"                  = "Get Directions";
+"Directions"                     = "Directions";
+"DoneButton"                     = "Done";
+"Email"                          = "Email Address";
+"Password"                       = "Password";
+"FirstName"                      = "First Name";
+"LastName"                       = "Last Name";
+"RetypePassword"                 = "Retype Password";
+"Description"                    = "Description";
+"Location"                       = "Location";
+"ContactInformation"             = "Contact information";
+"LocationServicesDisabledTitle"  = "Location Services Disabled";
+"LocationServicesDisabledMsg"    = "You currently have all location services for this device disabled. To proceed with this action, your location services should be reenabled."; 
+"GPSErrorTitle"                  = "GPS Locatization Error";
+"GPSErrorLocationUnknown"        = "The GPS device is currently unable to get your position. Please, try again later!";
+"GPSErrorDenied"                 = "The GPS feature was denied for this application. Please, reenable it through the device settings!";
+"GPSErrorHeadingFailure"         = "The GPS device could not determining your location because of strong interference from nearby magnetic fields! Try to use your iPhone device from another area with no interference.";
+"GPSErrorDefault"                = "The GPS device could not determining your location because of undefined message.";
+"Copyright"                      = "Copyright © 2011. All Rights Reserved.";
+"DistancePlural"                 = "Miles";
+"DistanceUnit"                   = "Mile";
+"List"                           = "List";
+"Details"                        = "Details";
+"Deal"                           = "Deal";
+"Save"                           = "Save";
+"Cancel"                         = "Cancel";
+"SaveBack"                       = "Save & Back";
+"SaveErrorTitle"                 = "Impossible to save Application Data";
+"SaveErrorMessage"               = "This application cannot save settings data. Please, report this error to manufacturer!";
+"DownloadingError"               = "Downloading Error";
+"DownloadingErrorMessage"        = "Title for alert displayed when download or parse error occurs.";
+
+"Me"                             = "Me";
+"By"                             = "By";
+
+//Contact
+
+"TollFree"                       = "Toll Free:";
+"Tel"                            = "Tel:";
+"Fax"                            = "Fax:";
+
+//About
+
+"Application"                    = "Application:";
+"ApplicationDescription"         = "Edirectory for the iPhone";
+"Version"                        = "Version:";
+"PoweredBy"                      = "Powered By:";
+
+//Location
+
+"SelectCitiesWithLetter"         = "Filter by";
+"Country"                        = "Country";
+"State"                          = "State";
+"City"                           = "City";
+"ClickToSelect"                  = "Click to select";
+"SelectCountryFirst"             = "Select country first";
+"SelectStateFirst"               = "Select state first";
+"ClickToSelectCity"              = "Click here to select a city";
+
+//NearBy
+
+"Near"                           = "Near:";
+"NearMe"                         = "Search by Nearby"; 
+"Distance"                       = "Distance:";
+"NearbyKey1"                     = "Airport";
+"NearbyKey2"                     = "Bar";
+"NearbyKey3"                     = "Coffe Shop";
+"NearbyKey4"                     = "Gas Station";
+"NearbyKey5"                     = "Gym";
+"NearbyKey6"                     = "Hotel";
+"NearbyKey7"                     = "Pharmacy";
+"NearbyKey8"                     = "Real Estate";
+"NearbyKey9"                     = "Restaurants";
+"NearbyResults"                  = "Nearby Results";
+"NearbyDeals"                    = "Nearby Businesses";
+
+
+//Deals
+"dealOriginalValueLabel"         = "Originally $%0.2f";
+"dealGrabbedLabel"               = "%d Deal(s) grabbed";
+"dealBarTitle"                   = "Deals";
+"dealNavigationTitle"            = "Deals Categories";
+"dealBarBackItemTitle"           = "Back";
+"dealWaitMyDeals"                = "Retrieving grabbed deals...";
+"dealWaitNearbyDeals"            = "Searching nearby Businesses...";
+"grabbedDealDetailTitle"         = "Unused Deal";
+"nearbyTopMesage"                = "Found %d deal(s) %d miles near %@";
+"nearbyMapMessage"               = "Show businesses on map";
+"forceFacebookLogInToRedeemTitle"= "Unable to proceed";
+"forceFacebookLogInToRedeem"     = "In order to proceed with the checkin and grabb this deal, you MUST log in using your Facebook account.";
+"noDealsNearby"                  = "There are no Deals nearby1";
+"FirstRunTitleMessage"           = "Nearby Businesses in ";
+"FirstRunBodyMessage"            = "Do you want to set default local search to your area?";
+"soldoutDealTitleMessage"        = "This Deal is Sold Out";
+"soldoutDealBodyMessage"         = "Check the Company site for more Deals";
+"emptyRedeemCodeMessage"         = "Facebook did not respond to your request. Please try again.";
+"DetailDealButtonCheckinMessage" = "Check in and Grab this Deal";
+"DetailDealButtonSoldOutMessage" = "Sold Out";
+
+
+
+//Businesses
+"businessTopMesage"                 = "Found %d business(es) %d miles near %@";
+"noBusinessNearby"                  = "There are no Businesses nearby.";
+"noBusinessNearbyTip"                  = "Use the “Businesses” button on the app navigation bar to search for businesses!";
+"searchPlaceholderText"             = "Search for product or service";
+"businessNavigationTitle"           = "Business Categories";
+"detailButtonTab1"                  = "Description";
+"detailButtonTab2"                  = "Contact";
+"detailButtonTab3"                  = "Directions";
+"detailButtonTab4"                  = "Reviews";
+"detailContactEmail"                = "Email:";
+"detailContactSite"                 = "Site:";
+"detailContactPhone"                = "Phone:";
+"detailContactFax"                  = "Fax:";
+"reviewsLabel"                      = "%d Reviews";
+"reviewLabel"                      = "%d Review";
+"reviewButton"                      = "Review it";
+"businessGeneralWaitMessage"        = "Waiting";
+"myBusinessButtonTab1"              = "My Reviews";
+"myBusinessButtonTab2"              = "Favorites";
+"forceFacebookLogInToReviewTitle"   = "Facebook login needed";
+"forceFacebookLogInToReview"        = "In order to proceed with the review for this business, you MUST log in using your Facebook account.";
+"postReviewProblemTitle"            = "Your review has not been posted.";
+"noReviewRateValue"                 = "You need to rate this Business.";
+"noReviewText"                      = "You need to write a comment this Business.";
+"PushBusinessNotifications"         = "Push Notifications";
+"sharedEmailBodyText"               = "I thought you would find this interesting:\n\n%@\n\nShared from the Business Finder mobile app";
+
+//More
+
+"NearbyTitle"                    = "Nearby";         
+"SearchTitle"                    = "Businesses";
+"ListingsTitle"                  = "My Businesses";
+"EventsTitle"                    = "Events";
+"ClassifiedsTitle"               = "Classifieds";
+"ArticlesTitle"                  = "Articles";
+"ContactTitle"                   = "Contact";
+"AboutTitle"                     = "About";
+
+//Search
+
+"SearchButton"                   = "Search";
+"Find"                           = "Find";
+"Keyword"                        = "Keyword";
+"Searching"                      = "Searching ...";
+
+//Settings
+
+"SettingsTitle"                  = "Settings";
+"NoSearchModeSelected"           = "No search mode selected. At least one needs to be selected. The default mode is Nearby.";
+"Authorize"                      = "Twitter";
+"Unauthorize"                    = "Click for Unauthorize";
+"SearchNearby"                   = "Search Options";
+"searchByLocation"               = "Search by Location";
+"SearchByCity"                   = "Search by City";
+"SearchByZipCode"                = "Search by Post Code";
+"SearchByPostCode"               = "Search by Post Code";
+"SearchRadius"                   = "Search Radius (miles)";
+"LoginInformation"               = "Login Options";
+"FacebookLoginInformation"       = "Facebook Login Information";
+"TwitterAuthorization"           = "Twitter Authorization";
+"LoginShareCheckins"             = "Login and share Check-Ins";
+"ShareCheckins"                  = "Share Check-Ins";
+"Zipcode"                        = "Search by Zip Code";
+"Name"                           = "Name";
+"UserName"                       = "User Name";
+"Email"                          = "E-mail";
+"AccountDetails"                 = "Account details";
+"FacebookAccountDetails"         = "Facebook account details";
+"PushDealsNotifications"         = "Push Notifications";
+
+//More
+
+"MoreTitle"                      = "More";
+
+//Classified
+
+"ShowMoreClassifieds"            = "Show More Classifieds >>";
+"ShowPreviousClassifieds"        = "<< Show Previous Classifieds";
+"AllClassifieds"                 = "All Classifieds";
+"LoadNextClassifieds"            = "Load More Classifieds >>";
+"LoadPreviousClassifieds"        = "<< Previous 20 Classifieds";
+
+//Login
+
+"LoginTitle"                     = "Login";
+"LoginButton"                    = "Login";
+"LogoutButton"                   = "Logout"; 
+"LoginFail"                      = "Login fail!";
+"EmailRequired"                  = "An e-mail is required.";
+"PasswordRequired"               = "A password is required.";
+"LoginHeaderMessage"             = "Log in using your eDirectory profile";
+"LoginButton"                    = "Log In";
+"NotLoggedIn"                    = "Facebook";
+"DealsLoginOption"               = "Sign Up/Sign In without Facebook";
+
+//Add Profile
+
+"CreateProfile"                  = "Create a profile";
+"FirstNameRequired"              = "First Name is required.";
+"LastNameRequired"               = "Last Name is required.";
+"EmailRequired"                  = "An e-mail is required.";
+"PasswordRequired"               = "A password is required.";
+"Minimun4Char"                   = "Please enter a password. Passwords must be a minimum of 4 characters.";
+"RetypePassword"                 = "You must retype your password.";
+"PasswordNotMatch"               = "Password do not match. Please make sure the passwords in both fields match.";
+"AddProfileHeader"               = "Account and contact information";
+"PrivacyPolicy"                  = "By clicking the button below, you agree to the Terms of Service and Privacy Policy.";
+"SignUpButton"                   = "Sign Up";
+"SelectLanguage"                 = "Select your preferred language";
+
+//ChooseProfile
+
+"UseProfile"                     = "Use an existing profile";
+"or"                             = "or";
+"LoginWithProfile"               = "Login with your profile";
+"CreateNewProfile"               = "Create a new profile";
+
+//Events
+
+"LoadNextEvents"                 = "Show More Events >>";
+"LoadPreviousEvents"             = "<< Show Previous Events";
+"AllEvents"                      = "All Events";
+
+//Article
+
+"LoadNextArticles"               = "Show More Articles >>";
+"LoadPreviousArticles"           = "<< Show Previous Articles";
+
+// Maps
+
+"MapView"                        = "Map View";
+"CurrentLocation"                = "Current location";
+"SearchResults"                  = "Search Results";
+
+//Review
+
+"Review"                          = "Review";
+"Reviewer"                        = "by";
+"ReviewDate"                      = "on";
+"ReviewDetails"                   = "Review Details";
+"Reviews"                         = "Reviews";
+"WriteReview"                     = "Write a review";
+"StarRatingIsRequired"            = "A 1-5 star rating is required.";
+"ReviewEmailRequired"             = "An e-mail address is required.";
+"ReviewTitleRequired"             = "A review title is required.";
+"ReviewDescriptionRequired"       = "A review description is required.";
+"Rating"                          = "Rating:";
+"ReviewMessage"                   = "This place is wonderful!";
+"ReviewerEmailAddress"            = "E-mail Address";
+"ReviewTitle"                     = "Review Title";
+"ReviewDescription"               = "Review Description";
+
+//Listings
+
+"LoadNextListings"                = "Load More ...";
+
+//Deal
+
+"Redeem"                          = "Redeem";
+"RedeemCode"                      = "Redeem code";
+"YourRedeemCodeIs"                = "Your redeem code is";
+"ShareWithFacebook"               = "Share with Facebook";
+"ShareWithTwitter"                = "Share with Twitter";
+"ProfileNecessary"                = "Profile Necessary";
+"NoTermsAndConditions"            = "No terms and conditions";
+"ShareFacebookRequired"           = "Share with Facebook is required";
+"IGotDeal"                        = "I just got a great deal from";
+"at"                              = "at";
+"GetYourCode"                     = "Get your code";
+"AlreadyRedeem"                   = "Already redeem";
+"Days"                            = "days";
+"Hours"                           = "hours";
+"Minutes"                         = "minutes";
+"Seconds"                         = "seconds";
+"SendByMail"                      = "Send by mail";
+"Value"                           = "Value";
+"Discount"                        = "Discount";
+"DealsLeft"                       = "Deals Left";
+"DealsDone"                       = "Deals Done";
+"FacebookRequired"                = "*required";
+"RequestByMail"                   = "Request by e-mail";
+"TermsAndConditions"              = "Terms and Conditions";
+
+//Check-in
+
+"ImAt"                            = "I'm at";
+"AddQuickTip"                     = "Add a Quick Tip";
+"CheckIn"                         = "Check-In"; 
+"CheckIns"                        = "Check-Ins"; 
+"ViewCheckins"                    = "View Check-Ins";
+"CheckinHere"                     = "Check-In Here";
+
+
+"BusinessFinder"                     = "Business Finder";
+"soapProccessError" = "Couldn't finish the request. Please, try again later.";
+"soapFaultError" = "Couldn't finish the request. Please, try again later.";
+"SearchProductOrService" = "Search for business";
+"SearchProductOrServicePlaceholder" = "Search for business on %@";
+"NearYou" = "you";
+
+"SegShare" = "Share";
+"SegCompany" = "Company";
+"SegMapIt" = "Map it";
+
+"DealWasAlreadyRedeemed" = "This Deal was already redeemed";
+
+"TimeLeftForDeal" = "Time Left for Deal";
+"DealRulesTermsService" = "Rules and Terms of Service";
+
+"DealDiscount" = "%.0f%% Discount";
+"XDistance" = "%0.2f %@";
+"XIntDistance" = "%i %@";
+
+
+"dealWait"            = "Searching deals...";
+"LoadingDashItems"            = "Loading Dashboard Items";
+
+"ButtonSignUp"            = "Sign Up";
+"ButtonSignIn"            = "Sign In";
+
+"FormEmail" = "E-mail";
+"FormPassword" = "Password";
+"FormVerifyPassword" = "Verify Password";
+"FormFullName" = "Full Name";
+
+"LoginWithFacebook" = "Login with Facebook";
+
+"GrabDealCongratulations" = "Congratulations!\nYou grabbed this Deal";
+"DealCode" = "Redeem Code";
+"DealWillBeSavedInMyDeals" = "This Deal is saved in your \"My Deals\" menu";
+"YouGrabbedDealAlready" = "You grabbed this Deal already";
+
+"ExpiringDeals" = "Expiring Deals";
+"UnusedDeals" = "Unused Deals";
+"UsedDeals" = "Used Deals";
+
+"YouCanUseDealUntil" = "You can use this Deal until";
+
+"PhoneTip" = "country + area + number";
+"YourPhoneNumber" = "Your Phone Number";
+"CallMe" = "Call me!";
+"CallRequest" = "Call Request";
+"CallRequestSuccessMessage" = "Request sent successfully! Please, wait for response.";
+"AddFavorites" = "Add to Favorites";
+"ShowAllReviews" = "Show All Reviews";
+"Gallery" = "Gallery";
+
+"ShareWithEmail" = "Share with E-mail";
+"DeteleActualPhoto" = "Detele actual photo";
+"TakeAnotherPicture" = "You've already attached a piture. Take another one?";
+"JustDelete" = "Just Delete";
+"TakeAnother" = "Take Another Picture";
+"EmailAddress" = "E-mail Address";
+"Remove" = "Remove";
+
+"TakeWithCamera" = "Take with camera";
+"ChooseFromLibrary" = "Choose from library";
+"XReviews" = "%i Review";
+"XReviewsPlural" = "%i Reviews";
+"BusinessTitleReview" = "%@ review";
+"Rate" = "Rate";
+"RateIt" = "Rate it";
+
+"SharedSuccessfully" = "Shared successfully!";
+
+"LoadMore"            = "Load more...";
+
+"MustTypeKeyword"= "Please type a keyword";
+
+"AddBusinessTitle" = "Add Business";
+
+"reviewtextInitialMessage" = "Type your review";
+
+//Forgot Password
+"RetrieveTitle"             = "Retrieve Password";
+"RetrieveMessage"           = "In order to retrieve your password, please inform the e-mail used in your registration and press proceed.";
+"RetrieveButtonTitle"       = "Retrieve";
+"RetrieveFeedbackMessage"   = "Soon, you will receive an email with your password.";
+
+
